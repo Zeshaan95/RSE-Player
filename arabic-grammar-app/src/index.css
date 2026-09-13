@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-arabic: "Amiri", "Noto Naskh Arabic", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+  --color-paper: #faf8f4;
+  --color-ink: #2a2520;
+  --color-ink-soft: #5c5346;
+  --color-border: #e4ddd0;
+  --color-accent: #6b5b3e;
+  --color-accent-soft: #f1ead9;
+  --color-surface: #ffffff;
+}
+
+.dark {
+  color-scheme: dark;
+  --color-paper: #17161a;
+  --color-ink: #ece8de;
+  --color-ink-soft: #a8a196;
+  --color-border: #33302b;
+  --color-accent: #c9b688;
+  --color-accent-soft: #2a2620;
+  --color-surface: #1f1e22;
+}
+
+html,
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-arabic {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+/* Comfortable defaults for long recitation lines */
+.matn-text {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  line-height: 2.4;
+  letter-spacing: 0;
+}
+
+::selection {
+  background-color: var(--color-accent-soft);
+}

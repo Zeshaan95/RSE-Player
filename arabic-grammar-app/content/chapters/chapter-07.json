@@ -1,0 +1,29 @@
+{
+  "id": "ch7",
+  "number": 7,
+  "titleArabic": "بَابُ الْمُبْتَدَأِ وَالْخَبَرِ",
+  "titleEnglish": "The Chapter of the Topic and Predicate (al-Mubtadaʾ wa-l-Khabar)",
+  "description": "PLACEHOLDER CHAPTER - the authentic matn text for this chapter has not yet been inserted into the curriculum. This entry exists to show the intended shape of the curriculum and should not be memorised or quoted as the actual text of al-Ājurrūmiyyah.",
+  "isPlaceholder": true,
+  "lessons": [
+    {
+      "id": "ch7-l1",
+      "chapterId": "ch7",
+      "order": 1,
+      "titleArabic": "المبتدأ والخبر",
+      "titleEnglish": "The Topic and the Predicate (Placeholder)",
+      "matnArabic": "[PLACEHOLDER - the authentic Arabic matn for this section has not yet been added. Replace this field with the verified text before using this lesson for memorisation.]",
+      "translation": "[Placeholder - awaiting the authentic matn text above before a translation can be finalised.]",
+      "explanation": "This chapter of al-Ājurrūmiyyah traditionally introduces the nominal sentence: the مبتدأ (topic, e.g. زيدٌ in زيدٌ قائمٌ) and its خبر (predicate, e.g. قائمٌ), both marfūʿ. As with the previous placeholder chapter, the real matn wording is intentionally omitted here rather than reconstructed from memory, so that no invented text is presented as the authentic primer. Insert the verified Arabic text from a reliable printed edition of al-Ājurrūmiyyah to activate this lesson.",
+      "keyTerms": [
+        { "id": "kt-mubtada", "arabic": "الْمُبْتَدَأُ", "transliteration": "al-mubtadaʾ", "english": "Topic", "definition": "The marfūʿ noun that a nominal sentence opens with." },
+        { "id": "kt-khabar", "arabic": "الْخَبَرُ", "transliteration": "al-khabar", "english": "Predicate", "definition": "The marfūʿ complement that completes the meaning of the mubtadaʾ." }
+      ],
+      "examples": [],
+      "recallQuestions": [],
+      "memorisationSections": [],
+      "irabExercises": [],
+      "isPlaceholder": true
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "ch1",
+  "number": 1,
+  "titleArabic": "كتاب الكلام",
+  "titleEnglish": "The Chapter of Speech (al-Kalām)",
+  "description": "The opening chapter of al-Ājurrūmiyyah: what speech (kalām) is, and its three constituent parts - the noun, the verb, and the particle.",
+  "lessons": [
+    {
+      "id": "ch1-l1",
+      "chapterId": "ch1",
+      "order": 1,
+      "titleArabic": "تعريف الكلام وأقسامه",
+      "titleEnglish": "The Definition of Kalām and Its Three Types",
+      "matnArabic": "الْكَلاَمُ: هُوَ اللَّفْظُ الْمُرَكَّبُ الْمُفِيدُ بِالْوَضْعِ. وَأَقْسَامُهُ ثَلاَثَةٌ: اسْمٌ، وَفِعْلٌ، وَحَرْفٌ جَاءَ لِمَعْنًى.",
+      "translation": "Kalām (speech) is a composed utterance that conveys a complete meaning, established by [linguistic] convention. Its types are three: a noun (ism), a verb (fiʿl), and a particle (ḥarf) that comes for a [grammatical] meaning.",
+      "explanation": "Ibn Ājurrūm opens the matn by defining the very subject of the book: kalām, i.e. meaningful Arabic speech. Four conditions are packed into the definition. It must be an 'utterance' (لفظ) - actual sound, not merely an idea. It must be 'composed' (مركّب) - made of at least two words. It must be 'meaningful' (مفيد) - the listener can stop at it and it makes complete sense on its own, unlike 'in the house' alone. And it must be 'by convention' (بالوضع) - Arabic words, not random noises or a foreign language a listener does not know. Every word in Arabic falls into exactly one of three categories: اسم (a word denoting a person, place, thing or idea, with no notion of time), فعل (a word denoting an action tied to a time), and حرف (a particle that only has meaning when linked to a noun or verb, such as 'in', 'from', or 'and').",
+      "keyTerms": [
+        { "id": "kt-kalam", "arabic": "الْكَلاَمُ", "transliteration": "al-kalām", "english": "Speech", "definition": "A composed, meaningful utterance in Arabic, established by linguistic convention." },
+        { "id": "kt-ism", "arabic": "الاسْمُ", "transliteration": "al-ism", "english": "Noun", "definition": "A word indicating a person, place, or thing, without reference to a particular time." },
+        { "id": "kt-fil", "arabic": "الْفِعْلُ", "transliteration": "al-fiʿl", "english": "Verb", "definition": "A word indicating an action or event tied to a particular tense (past, present, or command)." },
+        { "id": "kt-harf", "arabic": "الْحَرْفُ", "transliteration": "al-ḥarf", "english": "Particle", "definition": "A word that only carries meaning in combination with a noun or verb, e.g. prepositions and conjunctions." }
+      ],
+      "examples": [
+        { "id": "ch1-l1-ex1", "lessonId": "ch1-l1", "arabicSentence": "مُحَمَّدٌ", "translation": "Muḥammad (a name).", "componentBreakdown": [{ "word": "مُحَمَّدٌ", "role": "اسم" }], "difficulty": 1 },
+        { "id": "ch1-l1-ex2", "lessonId": "ch1-l1", "arabicSentence": "قَامَ", "translation": "He stood (past-tense verb).", "componentBreakdown": [{ "word": "قَامَ", "role": "فعل" }], "difficulty": 1 },
+        { "id": "ch1-l1-ex3", "lessonId": "ch1-l1", "arabicSentence": "مِنْ", "translation": "From (a particle of meaning only when attached to a noun).", "componentBreakdown": [{ "word": "مِنْ", "role": "حرف" }], "difficulty": 1 }
+      ],
+      "recallQuestions": [
+        { "id": "ch1-l1-rq1", "lessonId": "ch1-l1", "type": "free", "questionEnglish": "What are the three types of kalām (word categories) in Arabic?", "questionArabic": "ما هي أقسام الكلام الثلاثة؟", "correctAnswer": "اسم، وفعل، وحرف جاء لمعنى (noun, verb, and particle that carries a meaning)" },
+        { "id": "ch1-l1-rq2", "lessonId": "ch1-l1", "type": "mcq", "questionEnglish": "Which of the following is NOT a condition packed into the definition of kalām?", "options": ["مركّب (composed)", "مفيد (meaningful)", "بالوضع (by convention)", "معرب (declinable)"], "correctAnswer": "معرب (declinable)" },
+        { "id": "ch1-l1-rq3", "lessonId": "ch1-l1", "type": "free", "questionEnglish": "Why must kalām be 'مركّب' (composed)?", "correctAnswer": "Because a single isolated word, on its own, is not called kalām in the technical sense - it must be composed of at least two words." }
+      ],
+      "memorisationSections": [
+        { "id": "ch1-l1-mem1", "lessonId": "ch1-l1", "order": 1, "arabicText": "الْكَلاَمُ: هُوَ اللَّفْظُ الْمُرَكَّبُ الْمُفِيدُ بِالْوَضْعِ. وَأَقْسَامُهُ ثَلاَثَةٌ: اسْمٌ، وَفِعْلٌ، وَحَرْفٌ جَاءَ لِمَعْنًى.", "translation": "Kalām is a composed, meaningful utterance, established by convention. Its types are three: a noun, a verb, and a particle that comes for a meaning.", "transliteration": "al-kalāmu huwa al-lafẓu al-murakkabu al-mufīdu bi-l-waḍʿ. wa-aqsāmuhu thalāthah: ismun, wa fiʿlun, wa ḥarfun jāʾa li-maʿnā." }
+      ],
+      "irabExercises": [
+        {
+          "id": "ch1-l1-irab1",
+          "lessonId": "ch1-l1",
+          "level": 1,
+          "sentenceArabic": "قَامَ مُحَمَّدٌ",
+          "translation": "Muḥammad stood.",
+          "tokens": [
+            { "word": "قَامَ", "wordType": "فعل" },
+            { "word": "مُحَمَّدٌ", "wordType": "اسم" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch1-l2",
+      "chapterId": "ch1",
+      "order": 2,
+      "titleArabic": "علامات الاسم",
+      "titleEnglish": "The Signs of the Noun",
+      "matnArabic": "فَالاِسْمُ يُعْرَفُ بِالْخَفْضِ، وَالتَّنْوِينِ، وَدُخُولِ الأَلِفِ وَاللاَّمِ، وَحُرُوفِ الْخَفْضِ، وَهِيَ: مِنْ، وَإِلَى، وَعَنْ، وَعَلَى، وَفِي، وَرُبَّ، وَالْبَاءُ، وَالْكَافُ، وَاللاَّمُ، وَحُرُوفُ الْقَسَمِ، وَهِيَ: الْوَاوُ، وَالْبَاءُ، وَالتَّاءُ.",
+      "translation": "The noun is known by [accepting] khafḍ (the genitive case), tanwīn, the entry of the definite article al-, and the genitive-causing particles, which are: min, ilā, ʿan, ʿalā, fī, rubba, the bāʾ, the kāf, the lām, and the particles of oath, which are: the wāw, the bāʾ, and the tāʾ.",
+      "explanation": "Rather than defining the noun by its meaning alone, Ibn Ājurrūm gives four practical tests any student can apply to a word to check whether it is an ism. If a word can take khafḍ (a kasrah-type genitive ending, e.g. after a preposition), can take tanwīn (the two-sound ending -un/-an/-in), can have الـ prefixed to it, or can follow one of the genitive-causing particles listed, then it is a noun. Verbs and particles cannot take any of these. This is one of the most-quoted lines of the whole matn, because it turns 'what is a noun?' from an abstract question into a simple, repeatable test.",
+      "keyTerms": [
+        { "id": "kt-khafd", "arabic": "الْخَفْضُ", "transliteration": "al-khafḍ", "english": "Genitive case", "definition": "The grammatical case of a noun typically following a preposition or in an iḍāfah construction; also called جرّ." },
+        { "id": "kt-tanwin", "arabic": "التَّنْوِينُ", "transliteration": "al-tanwīn", "english": "Nunation", "definition": "The extra -n sound (ـٌ ـً ـٍ) attached to the end of many indefinite nouns." },
+        { "id": "kt-alif-lam", "arabic": "أَلْ التَّعْرِيف", "transliteration": "al- (alif-lām)", "english": "Definite article", "definition": "The prefix الـ that makes a noun definite; it can only attach to nouns." }
+      ],
+      "examples": [
+        { "id": "ch1-l2-ex1", "lessonId": "ch1-l2", "arabicSentence": "فِي الْبَيْتِ", "translation": "In the house.", "componentBreakdown": [{ "word": "فِي", "role": "حرف خفض" }, { "word": "الْبَيْتِ", "role": "اسم مخفوض", "grammaticalCase": "مجرور", "sign": "الكسرة" }], "irabAnswer": "الْبَيْتِ: اسمٌ مجرورٌ بـ«في» وعلامة جرّه الكسرةُ الظاهرة على آخره.", "difficulty": 1 },
+        { "id": "ch1-l2-ex2", "lessonId": "ch1-l2", "arabicSentence": "كِتَابٌ", "translation": "A book (note the tanwīn -un, and the ability to add al- to make الكتاب).", "componentBreakdown": [{ "word": "كِتَابٌ", "role": "اسم" }], "difficulty": 1 }
+      ],
+      "recallQuestions": [
+        { "id": "ch1-l2-rq1", "lessonId": "ch1-l2", "type": "free", "questionEnglish": "Name the four signs by which a noun is recognised.", "correctAnswer": "الخفض (accepting the genitive case), التنوين (nunation), دخول الألف واللام (taking the definite article), and following one of the حروف الخفض (genitive-causing particles)." },
+        { "id": "ch1-l2-rq2", "lessonId": "ch1-l2", "type": "mcq", "questionEnglish": "Which of these particles is a genitive-causing particle (حرف خفض)?", "options": ["فِي", "سَوْفَ", "قَدْ", "لَمْ"], "correctAnswer": "فِي" },
+        { "id": "ch1-l2-rq3", "lessonId": "ch1-l2", "type": "free", "questionEnglish": "Why can 'من' (min) never itself be a noun, no matter how it is used?", "correctAnswer": "Because it is one of the fixed particles of khafḍ - it never takes tanwīn, khafḍ, or al-, and it never has meaning except attached to a following noun." }
+      ],
+      "memorisationSections": [
+        { "id": "ch1-l2-mem1", "lessonId": "ch1-l2", "order": 1, "arabicText": "فَالاِسْمُ يُعْرَفُ بِالْخَفْضِ، وَالتَّنْوِينِ، وَدُخُولِ الأَلِفِ وَاللاَّمِ، وَحُرُوفِ الْخَفْضِ.", "translation": "The noun is known by khafḍ, tanwīn, the entry of al-, and the particles of khafḍ." }
+      ],
+      "irabExercises": [
+        {
+          "id": "ch1-l2-irab1",
+          "lessonId": "ch1-l2",
+          "level": 1,
+          "sentenceArabic": "ذَهَبَ الطَّالِبُ إِلَى الْمَدْرَسَةِ",
+          "translation": "The student went to school.",
+          "tokens": [
+            { "word": "ذَهَبَ", "wordType": "فعل" },
+            { "word": "الطَّالِبُ", "wordType": "اسم" },
+            { "word": "إِلَى", "wordType": "حرف" },
+            { "word": "الْمَدْرَسَةِ", "wordType": "اسم" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch1-l3",
+      "chapterId": "ch1",
+      "order": 3,
+      "titleArabic": "علامات الفعل",
+      "titleEnglish": "The Signs of the Verb",
+      "matnArabic": "وَالْفِعْلُ يُعْرَفُ بِقَدْ، وَالسِّينِ، وَسَوْفَ، وَتَاءِ التَّأْنِيثِ السَّاكِنَةِ.",
+      "translation": "And the verb is known by [the possibility of prefixing] qad, sīn, sawfa, and the silent tāʾ of the feminine.",
+      "explanation": "Just as the noun had four tests, the verb has four tests of its own - though in practice they apply mainly to identifying the past and present tense. قَدْ can precede a past or present verb (قد قامَ، قد يقومُ). السين and سوف only precede present-tense verbs and give them a future sense (سيقوم، سوف يقوم). The 'silent tāʾ of the feminine' (تاء التأنيث الساكنة) attaches to the end of a past-tense verb to show the doer is feminine (قامَتْ - 'she stood'). No noun or particle can ever accept any of these four markers, which is what makes them reliable tests.",
+      "keyTerms": [
+        { "id": "kt-qad", "arabic": "قَدْ", "transliteration": "qad", "english": "Qad", "definition": "A particle placed before a verb; with the past tense it means 'certainly/already', with the present it means 'sometimes/perhaps'." },
+        { "id": "kt-sawfa", "arabic": "السِّينُ وَسَوْفَ", "transliteration": "al-sīn wa sawfa", "english": "The future particles", "definition": "Particles prefixed only to present-tense verbs to give them future meaning." },
+        { "id": "kt-tanith", "arabic": "تَاءُ التَّأْنِيثِ السَّاكِنَةُ", "transliteration": "tāʾ al-taʾnīth al-sākinah", "english": "The silent feminine tāʾ", "definition": "A silent tāʾ suffixed to a past-tense verb to indicate its subject is feminine." }
+      ],
+      "examples": [
+        { "id": "ch1-l3-ex1", "lessonId": "ch1-l3", "arabicSentence": "قَدْ قَامَ", "translation": "He has indeed stood.", "difficulty": 1 },
+        { "id": "ch1-l3-ex2", "lessonId": "ch1-l3", "arabicSentence": "سَيَقُومُ", "translation": "He will stand.", "difficulty": 1 },
+        { "id": "ch1-l3-ex3", "lessonId": "ch1-l3", "arabicSentence": "قَامَتْ هِنْدٌ", "translation": "Hind stood (feminine subject, marked by the silent tāʾ on the verb).", "irabAnswer": "قَامَتْ: فعلٌ ماضٍ، والتاء للتأنيث. هِنْدٌ: فاعلٌ مرفوعٌ وعلامة رفعه الضمة.", "difficulty": 2 }
+      ],
+      "recallQuestions": [
+        { "id": "ch1-l3-rq1", "lessonId": "ch1-l3", "type": "free", "questionEnglish": "List the four signs by which a verb is recognised.", "correctAnswer": "قد، والسين، وسوف، وتاء التأنيث الساكنة (qad, sīn, sawfa, and the silent feminine tāʾ)." },
+        { "id": "ch1-l3-rq2", "lessonId": "ch1-l3", "type": "mcq", "questionEnglish": "'سَوْفَ' can only ever attach to which tense of verb?", "options": ["Past only", "Present only", "Imperative only", "Any tense"], "correctAnswer": "Present only" }
+      ],
+      "memorisationSections": [
+        { "id": "ch1-l3-mem1", "lessonId": "ch1-l3", "order": 1, "arabicText": "وَالْفِعْلُ يُعْرَفُ بِقَدْ، وَالسِّينِ، وَسَوْفَ، وَتَاءِ التَّأْنِيثِ السَّاكِنَةِ.", "translation": "The verb is known by qad, sīn, sawfa, and the silent feminine tāʾ." }
+      ],
+      "irabExercises": []
+    },
+    {
+      "id": "ch1-l4",
+      "chapterId": "ch1",
+      "order": 4,
+      "titleArabic": "الحرف",
+      "titleEnglish": "The Particle",
+      "matnArabic": "وَالْحَرْفُ مَا لاَ يَصْلُحُ مَعَهُ دَلِيلُ الاِسْمِ وَلاَ دَلِيلُ الْفِعْلِ.",
+      "translation": "And the particle is that with which neither the proof of the noun nor the proof of the verb is valid.",
+      "explanation": "Having given positive tests for the noun and the verb, Ibn Ājurrūm defines the particle negatively: it is whatever fails both sets of tests. A particle can never take tanwīn, khafḍ, or al- (the noun tests), and it can never take qad, sīn, sawfa, or the feminine tāʾ (the verb tests). This elegant definition-by-elimination completes the three-way division of kalām introduced in the first lesson.",
+      "keyTerms": [
+        { "id": "kt-harf2", "arabic": "الْحَرْفُ", "transliteration": "al-ḥarf", "english": "Particle", "definition": "A word identified by failing every test of the noun and every test of the verb." }
+      ],
+      "examples": [
+        { "id": "ch1-l4-ex1", "lessonId": "ch1-l4", "arabicSentence": "هَلْ، لَمْ، إِنَّ، وَ", "translation": "Examples of particles: hal (interrogative), lam (negates the past), inna (emphasis), wa (and).", "difficulty": 1 }
+      ],
+      "recallQuestions": [
+        { "id": "ch1-l4-rq1", "lessonId": "ch1-l4", "type": "free", "questionEnglish": "How does the matn define الحرف? Why is it defined differently from the noun and the verb?", "correctAnswer": "It is defined negatively, as whatever cannot take any sign of the noun and cannot take any sign of the verb - because particles have no single positive marker of their own." },
+        { "id": "ch1-l4-rq2", "lessonId": "ch1-l4", "type": "mcq", "questionEnglish": "Which word below is a حرف (particle)?", "options": ["كِتَابٌ", "يَكْتُبُ", "فِي", "الطَّالِبُ"], "correctAnswer": "فِي" }
+      ],
+      "memorisationSections": [
+        { "id": "ch1-l4-mem1", "lessonId": "ch1-l4", "order": 1, "arabicText": "وَالْحَرْفُ مَا لاَ يَصْلُحُ مَعَهُ دَلِيلُ الاِسْمِ وَلاَ دَلِيلُ الْفِعْلِ.", "translation": "The particle is that with which neither the proof of the noun nor the proof of the verb is valid." }
+      ],
+      "irabExercises": [
+        {
+          "id": "ch1-l4-irab1",
+          "lessonId": "ch1-l4",
+          "level": 1,
+          "sentenceArabic": "الْعِلْمُ نُورٌ وَالْجَهْلُ ظَلاَمٌ",
+          "translation": "Knowledge is light, and ignorance is darkness.",
+          "tokens": [
+            { "word": "الْعِلْمُ", "wordType": "اسم" },
+            { "word": "نُورٌ", "wordType": "اسم" },
+            { "word": "وَ", "wordType": "حرف" },
+            { "word": "الْجَهْلُ", "wordType": "اسم" },
+            { "word": "ظَلاَمٌ", "wordType": "اسم" }
+          ]
+        }
+      ]
+    }
+  ]
+}

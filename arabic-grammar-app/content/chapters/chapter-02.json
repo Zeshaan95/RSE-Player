@@ -1,0 +1,65 @@
+{
+  "id": "ch2",
+  "number": 2,
+  "titleArabic": "بَابُ الْإِعْرَابِ",
+  "titleEnglish": "The Chapter of Iʿrāb",
+  "description": "What iʿrāb (grammatical inflection) is, and which of its four types apply to nouns and which apply to verbs.",
+  "lessons": [
+    {
+      "id": "ch2-l1",
+      "chapterId": "ch2",
+      "order": 1,
+      "titleArabic": "تعريف الإعراب وأقسامه",
+      "titleEnglish": "The Definition of Iʿrāb and Its Four Types",
+      "matnArabic": "الْإِعْرَابُ: هُوَ تَغْيِيرُ أَوَاخِرِ الْكَلِمِ لِاخْتِلَافِ الْعَوَامِلِ الدَّاخِلَةِ عَلَيْهَا لَفْظًا أَوْ تَقْدِيرًا. وَأَقْسَامُهُ أَرْبَعَةٌ: رَفْعٌ، وَنَصْبٌ، وَخَفْضٌ، وَجَزْمٌ.",
+      "translation": "Iʿrāb is the changing of the endings of words due to the different governing factors (ʿawāmil) that enter upon them, whether that change is apparent in pronunciation or only estimated. Its types are four: rafʿ, naṣb, khafḍ, and jazm.",
+      "explanation": "This is the definition that gives Arabic syntax its name. A single word such as زيد changes its final vowel depending on its grammatical role in the sentence: زيدٌ قائمٌ (Zayd is standing - rafʿ), إنّ زيداً قائمٌ (Indeed Zayd is standing - naṣb), مررتُ بزيدٍ (I passed by Zayd - khafḍ). The cause of each change is called the ʿāmil (governing factor) - here, the absence of any particle, then إنّ, then the preposition بِ. The phrase 'لفظاً أو تقديراً' (apparent or estimated) matters: sometimes the ending cannot physically be pronounced (e.g. on a word ending in alif), so the case is still assigned grammatically even though no sound changes - this is إعراب تقديري, estimated iʿrāb.",
+      "keyTerms": [
+        { "id": "kt-irab", "arabic": "الْإِعْرَابُ", "transliteration": "al-iʿrāb", "english": "Iʿrāb / grammatical inflection", "definition": "The systematic change of a word's final ending according to its grammatical position in the sentence." },
+        { "id": "kt-amil", "arabic": "الْعَامِلُ", "transliteration": "al-ʿāmil", "english": "Governing factor", "definition": "The word or structure responsible for a given case ending, e.g. a preposition causing khafḍ." },
+        { "id": "kt-raf", "arabic": "الرَّفْعُ", "transliteration": "al-rafʿ", "english": "Nominative case", "definition": "The 'default' case, typically marked by ḍammah." },
+        { "id": "kt-nasb", "arabic": "النَّصْبُ", "transliteration": "al-naṣb", "english": "Accusative case", "definition": "Typically marked by fatḥah; also used for the subjunctive mood of verbs." },
+        { "id": "kt-jazm", "arabic": "الْجَزْمُ", "transliteration": "al-jazm", "english": "Jussive mood", "definition": "A mood unique to present-tense verbs, typically marked by sukūn." }
+      ],
+      "examples": [
+        { "id": "ch2-l1-ex1", "lessonId": "ch2-l1", "arabicSentence": "زَيْدٌ قَائِمٌ", "translation": "Zayd is standing.", "irabAnswer": "زَيْدٌ: مبتدأٌ مرفوعٌ وعلامة رفعه الضمة. قَائِمٌ: خبرٌ مرفوعٌ وعلامة رفعه الضمة.", "difficulty": 2 },
+        { "id": "ch2-l1-ex2", "lessonId": "ch2-l1", "arabicSentence": "إِنَّ زَيْدًا قَائِمٌ", "translation": "Indeed, Zayd is standing.", "irabAnswer": "زَيْدًا: اسم إنّ منصوبٌ وعلامة نصبه الفتحة.", "difficulty": 3 }
+      ],
+      "recallQuestions": [
+        { "id": "ch2-l1-rq1", "lessonId": "ch2-l1", "type": "free", "questionEnglish": "Give the definition of iʿrāb in your own words.", "correctAnswer": "The changing of the endings of words because of different governing factors acting on them, whether the change is pronounced or merely estimated." },
+        { "id": "ch2-l1-rq2", "lessonId": "ch2-l1", "type": "mcq", "questionEnglish": "How many types of iʿrāb are there?", "options": ["Two", "Three", "Four", "Five"], "correctAnswer": "Four" },
+        { "id": "ch2-l1-rq3", "lessonId": "ch2-l1", "type": "free", "questionEnglish": "What is the ʿāmil (governing factor) that causes زيداً to be in naṣb in 'إنّ زيداً قائمٌ'?", "correctAnswer": "إنّ - it is the governing particle that puts its noun (اسمها) into the accusative." }
+      ],
+      "memorisationSections": [
+        { "id": "ch2-l1-mem1", "lessonId": "ch2-l1", "order": 1, "arabicText": "الْإِعْرَابُ: هُوَ تَغْيِيرُ أَوَاخِرِ الْكَلِمِ لِاخْتِلَافِ الْعَوَامِلِ الدَّاخِلَةِ عَلَيْهَا لَفْظًا أَوْ تَقْدِيرًا. وَأَقْسَامُهُ أَرْبَعَةٌ: رَفْعٌ، وَنَصْبٌ، وَخَفْضٌ، وَجَزْمٌ.", "translation": "Iʿrāb is the changing of word-endings due to differing governing factors, pronounced or estimated. Its types are four: rafʿ, naṣb, khafḍ, jazm." }
+      ],
+      "irabExercises": []
+    },
+    {
+      "id": "ch2-l2",
+      "chapterId": "ch2",
+      "order": 2,
+      "titleArabic": "إعراب الأسماء والأفعال",
+      "titleEnglish": "Which Cases Apply to Nouns and Which to Verbs",
+      "matnArabic": "فَلِلْأَسْمَاءِ مِنْ ذَلِكَ: الرَّفْعُ، وَالنَّصْبُ، وَالْخَفْضُ، وَلَا جَزْمَ فِيهَا. وَلِلْأَفْعَالِ مِنْ ذَلِكَ: الرَّفْعُ، وَالنَّصْبُ، وَالْجَزْمُ، وَلَا خَفْضَ فِيهَا.",
+      "translation": "Of these, nouns take rafʿ, naṣb, and khafḍ - they do not take jazm. Of these, verbs take rafʿ, naṣb, and jazm - they do not take khafḍ.",
+      "explanation": "This line narrows the four-way division from the previous lesson: nouns and (present-tense) verbs actually only share two of the four cases/moods. Khafḍ (the genitive) is exclusive to nouns - a verb can never be majrūr. Jazm (the jussive) is exclusive to present-tense verbs - a noun can never be majzūm. Only rafʿ and naṣb are common to both. This single distinction is one of the most useful diagnostic tools in the whole book: seeing a majzūm word instantly tells you it is a muḍāriʿ verb; seeing a majrūr word instantly tells you it is a noun.",
+      "keyTerms": [
+        { "id": "kt-khafd2", "arabic": "لَا جَزْمَ فِي الْأَسْمَاءِ", "transliteration": "lā jazma fī al-asmāʾ", "english": "No jazm in nouns", "definition": "Nouns are never majzūm; jazm is a mood restricted to present-tense verbs." },
+        { "id": "kt-nokhafd", "arabic": "لَا خَفْضَ فِي الْأَفْعَالِ", "transliteration": "lā khafḍa fī al-afʿāl", "english": "No khafḍ in verbs", "definition": "Verbs are never majrūr; khafḍ is a case restricted to nouns." }
+      ],
+      "examples": [
+        { "id": "ch2-l2-ex1", "lessonId": "ch2-l2", "arabicSentence": "لَمْ يَقُمْ", "translation": "He did not stand (majzūm verb).", "irabAnswer": "يَقُمْ: فعلٌ مضارعٌ مجزومٌ بـ«لم» وعلامة جزمه السكون.", "difficulty": 2 },
+        { "id": "ch2-l2-ex2", "lessonId": "ch2-l2", "arabicSentence": "بِسْمِ اللَّهِ", "translation": "In the name of Allah (majrūr noun).", "irabAnswer": "اسْمِ: اسمٌ مجرورٌ بالباء وعلامة جرّه الكسرة.", "difficulty": 2 }
+      ],
+      "recallQuestions": [
+        { "id": "ch2-l2-rq1", "lessonId": "ch2-l2", "type": "free", "questionEnglish": "Which case is exclusive to nouns, and which mood is exclusive to verbs?", "correctAnswer": "الخفض (khafḍ) is exclusive to nouns; الجزم (jazm) is exclusive to (present-tense) verbs." },
+        { "id": "ch2-l2-rq2", "lessonId": "ch2-l2", "type": "mcq", "questionEnglish": "If you see a word that is majzūm (مجزوم), what must it be?", "options": ["A noun", "A present-tense verb", "A particle", "A past-tense verb"], "correctAnswer": "A present-tense verb" }
+      ],
+      "memorisationSections": [
+        { "id": "ch2-l2-mem1", "lessonId": "ch2-l2", "order": 1, "arabicText": "فَلِلْأَسْمَاءِ مِنْ ذَلِكَ: الرَّفْعُ، وَالنَّصْبُ، وَالْخَفْضُ، وَلَا جَزْمَ فِيهَا. وَلِلْأَفْعَالِ مِنْ ذَلِكَ: الرَّفْعُ، وَالنَّصْبُ، وَالْجَزْمُ، وَلَا خَفْضَ فِيهَا.", "translation": "Nouns take rafʿ, naṣb and khafḍ, and no jazm. Verbs take rafʿ, naṣb and jazm, and no khafḍ." }
+      ],
+      "irabExercises": []
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "id": "ch3",
+  "number": 3,
+  "titleArabic": "بَابُ مَعْرِفَةِ عَلَامَاتِ الْإِعْرَابِ",
+  "titleEnglish": "The Chapter on Knowing the Signs of Iʿrāb",
+  "description": "The specific letters and vowel-marks that physically signal each of the four cases/moods, and exactly where each sign is used.",
+  "lessons": [
+    {
+      "id": "ch3-l1",
+      "chapterId": "ch3",
+      "order": 1,
+      "titleArabic": "علامات الرفع",
+      "titleEnglish": "The Signs of Rafʿ",
+      "matnArabic": "لِلرَّفْعِ أَرْبَعُ عَلَامَاتٍ: الضَّمَّةُ، وَالْوَاوُ، وَالْأَلِفُ، وَالنُّونُ. فَأَمَّا الضَّمَّةُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي أَرْبَعَةِ مَوَاضِعَ: فِي الِاسْمِ الْمُفْرَدِ، وَجَمْعِ التَّكْسِيرِ، وَجَمْعِ الْمُؤَنَّثِ السَّالِمِ، وَالْفِعْلِ الْمُضَارِعِ الَّذِي لَمْ يَتَّصِلْ بِآخِرِهِ شَيْءٌ. وَأَمَّا الْوَاوُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي مَوْضِعَيْنِ: فِي جَمْعِ الْمُذَكَّرِ السَّالِمِ، وَفِي الْأَسْمَاءِ الْخَمْسَةِ، وَهِيَ: أَبُوكَ، وَأَخُوكَ، وَحَمُوكَ، وَفُوكَ، وَذُو مَالٍ. وَأَمَّا الْأَلِفُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي تَثْنِيَةِ الْأَسْمَاءِ خَاصَّةً. وَأَمَّا النُّونُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي الْفِعْلِ الْمُضَارِعِ إِذَا اتَّصَلَ بِهِ ضَمِيرُ تَثْنِيَةٍ، أَوْ ضَمِيرُ جَمْعٍ، أَوْ ضَمِيرُ الْمُؤَنَّثَةِ الْمُخَاطَبَةِ.",
+      "translation": "Rafʿ has four signs: the ḍammah, the wāw, the alif, and the nūn. The ḍammah is a sign of rafʿ in four places: the singular noun, the broken plural, the sound feminine plural, and the present-tense verb to whose end nothing [further] is attached. The wāw is a sign of rafʿ in two places: the sound masculine plural, and the Five Nouns - which are abūka (your father), akhūka (your brother), ḥamūka (your father-in-law), fūka (your mouth), and dhū māl (possessor of wealth). The alif is a sign of rafʿ specifically in the dual of nouns. The nūn is a sign of rafʿ in the present-tense verb when a dual pronoun, a plural pronoun, or the pronoun of the feminine addressee is attached to it.",
+      "explanation": "This lesson answers a question the previous chapter raised but did not resolve: what does rafʿ actually look like on the page? The ḍammah (ـُ) is the 'default' sign, used in the majority of singular and broken-plural nouns and in most present-tense verbs. But three word-patterns swap the ḍammah for a letter instead: the sound masculine plural and the Five Nouns use a wāw (معلّمونَ, أبوك); the dual uses an alif (الطالبانِ); and five specific present-tense verb forms (تفعلان، يفعلان، تفعلون، يفعلون، تفعلين) use a fixed nūn instead of a vowel at all. Memorising these four signs and their exact locations is the foundation for every iʿrāb exercise that follows.",
+      "keyTerms": [
+        { "id": "kt-damma", "arabic": "الضَّمَّةُ", "transliteration": "al-ḍammah", "english": "Ḍammah", "definition": "The short vowel mark ـُ ; the default sign of rafʿ." },
+        { "id": "kt-asma5", "arabic": "الْأَسْمَاءُ الْخَمْسَةُ", "transliteration": "al-asmāʾ al-khamsah", "english": "The Five Nouns", "definition": "أب، أخ، حم، فو، ذو (when followed by a possessor) - these take wāw for rafʿ, alif for naṣb, and yāʾ for khafḍ instead of the usual vowels." },
+        { "id": "kt-muthanna", "arabic": "الْمُثَنَّى", "transliteration": "al-muthannā", "english": "Dual", "definition": "The form referring to exactly two, marked with ـَانِ / ـَيْنِ." },
+        { "id": "kt-jamsalim", "arabic": "جَمْعُ الْمُذَكَّرِ السَّالِمُ", "transliteration": "jamʿ al-mudhakkar al-sālim", "english": "Sound masculine plural", "definition": "A regular masculine plural formed with ـُونَ / ـِينَ." }
+      ],
+      "examples": [
+        { "id": "ch3-l1-ex1", "lessonId": "ch3-l1", "arabicSentence": "جَاءَ الْمُعَلِّمُ", "translation": "The teacher came.", "irabAnswer": "الْمُعَلِّمُ: فاعلٌ مرفوعٌ وعلامة رفعه الضمة الظاهرة على آخره.", "difficulty": 1 },
+        { "id": "ch3-l1-ex2", "lessonId": "ch3-l1", "arabicSentence": "جَاءَ الْمُعَلِّمُونَ", "translation": "The teachers (masc. pl.) came.", "irabAnswer": "الْمُعَلِّمُونَ: فاعلٌ مرفوعٌ وعلامة رفعه الواو لأنه جمع مذكر سالم.", "difficulty": 2 },
+        { "id": "ch3-l1-ex3", "lessonId": "ch3-l1", "arabicSentence": "جَاءَ الطَّالِبَانِ", "translation": "The two students came.", "irabAnswer": "الطَّالِبَانِ: فاعلٌ مرفوعٌ وعلامة رفعه الألف لأنه مثنى.", "difficulty": 2 },
+        { "id": "ch3-l1-ex4", "lessonId": "ch3-l1", "arabicSentence": "جَاءَ أَبُوكَ", "translation": "Your father came.", "irabAnswer": "أَبُوكَ: فاعلٌ مرفوعٌ وعلامة رفعه الواو لأنه من الأسماء الخمسة.", "difficulty": 3 }
+      ],
+      "recallQuestions": [
+        { "id": "ch3-l1-rq1", "lessonId": "ch3-l1", "type": "free", "questionEnglish": "What are the four signs of rafʿ?", "correctAnswer": "الضمة، والواو، والألف، والنون (ḍammah, wāw, alif, nūn)." },
+        { "id": "ch3-l1-rq2", "lessonId": "ch3-l1", "type": "free", "questionEnglish": "Which sign of rafʿ is used for the dual, and which for the sound masculine plural?", "correctAnswer": "The dual takes the alif; the sound masculine plural takes the wāw." },
+        { "id": "ch3-l1-rq3", "lessonId": "ch3-l1", "type": "mcq", "questionEnglish": "What is the usual sign of rafʿ for a plain singular noun like الطالبُ?", "options": ["الضمة", "الواو", "الألف", "النون"], "correctAnswer": "الضمة" },
+        { "id": "ch3-l1-rq4", "lessonId": "ch3-l1", "type": "free", "questionEnglish": "Name the Five Nouns (الأسماء الخمسة).", "correctAnswer": "أب، أخ، حم، فو، ذو (when in iḍāfah to something other than the speaker's ي)." }
+      ],
+      "memorisationSections": [
+        { "id": "ch3-l1-mem1", "lessonId": "ch3-l1", "order": 1, "arabicText": "لِلرَّفْعِ أَرْبَعُ عَلَامَاتٍ: الضَّمَّةُ، وَالْوَاوُ، وَالْأَلِفُ، وَالنُّونُ.", "translation": "Rafʿ has four signs: the ḍammah, the wāw, the alif, and the nūn." },
+        { "id": "ch3-l1-mem2", "lessonId": "ch3-l1", "order": 2, "arabicText": "فَأَمَّا الضَّمَّةُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي أَرْبَعَةِ مَوَاضِعَ: فِي الِاسْمِ الْمُفْرَدِ، وَجَمْعِ التَّكْسِيرِ، وَجَمْعِ الْمُؤَنَّثِ السَّالِمِ، وَالْفِعْلِ الْمُضَارِعِ الَّذِي لَمْ يَتَّصِلْ بِآخِرِهِ شَيْءٌ.", "translation": "The ḍammah is a sign of rafʿ in four places: the singular noun, the broken plural, the sound feminine plural, and the present-tense verb with nothing attached to its end." },
+        { "id": "ch3-l1-mem3", "lessonId": "ch3-l1", "order": 3, "arabicText": "وَأَمَّا الْوَاوُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي مَوْضِعَيْنِ: فِي جَمْعِ الْمُذَكَّرِ السَّالِمِ، وَفِي الْأَسْمَاءِ الْخَمْسَةِ. وَأَمَّا الْأَلِفُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي تَثْنِيَةِ الْأَسْمَاءِ خَاصَّةً. وَأَمَّا النُّونُ فَتَكُونُ عَلَامَةً لِلرَّفْعِ فِي الْفِعْلِ الْمُضَارِعِ إِذَا اتَّصَلَ بِهِ ضَمِيرُ تَثْنِيَةٍ، أَوْ ضَمِيرُ جَمْعٍ، أَوْ ضَمِيرُ الْمُؤَنَّثَةِ الْمُخَاطَبَةِ.", "translation": "The wāw is a sign of rafʿ in two places: the sound masculine plural, and the Five Nouns. The alif is a sign of rafʿ specifically in the dual. The nūn is a sign of rafʿ in the present-tense verb when a dual, plural, or feminine-addressee pronoun is attached." }
+      ],
+      "irabExercises": [
+        {
+          "id": "ch3-l1-irab1",
+          "lessonId": "ch3-l1",
+          "level": 2,
+          "sentenceArabic": "جَاءَ زَيْدٌ",
+          "translation": "Zayd came.",
+          "tokens": [
+            { "word": "جَاءَ", "wordType": "فعل", "role": "فعل ماضٍ" },
+            { "word": "زَيْدٌ", "wordType": "اسم", "role": "فاعل", "grammaticalCase": "مرفوع", "sign": "الضمة الظاهرة", "reason": "لأنه اسم مفرد", "fullIrab": "زَيْدٌ: فاعلٌ مرفوعٌ وعلامة رفعه الضمةُ الظاهرة على آخره." }
+          ]
+        },
+        {
+          "id": "ch3-l1-irab2",
+          "lessonId": "ch3-l1",
+          "level": 3,
+          "sentenceArabic": "يَنْجَحُ الْمُجْتَهِدُونَ",
+          "translation": "The diligent ones succeed.",
+          "tokens": [
+            { "word": "يَنْجَحُ", "wordType": "فعل", "role": "فعل مضارع" },
+            { "word": "الْمُجْتَهِدُونَ", "wordType": "اسم", "role": "فاعل", "grammaticalCase": "مرفوع", "sign": "الواو", "reason": "لأنه جمع مذكر سالم", "fullIrab": "الْمُجْتَهِدُونَ: فاعلٌ مرفوعٌ وعلامة رفعه الواوُ لأنه جمعُ مذكرٍ سالمٍ." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch3-l2",
+      "chapterId": "ch3",
+      "order": 2,
+      "titleArabic": "علامات النصب",
+      "titleEnglish": "The Signs of Naṣb",
+      "matnArabic": "وَلِلنَّصْبِ خَمْسُ عَلَامَاتٍ: الْفَتْحَةُ، وَالْأَلِفُ، وَالْكَسْرَةُ، وَالْيَاءُ، وَحَذْفُ النُّونِ. فَأَمَّا الْفَتْحَةُ فَتَكُونُ عَلَامَةً لِلنَّصْبِ فِي ثَلَاثَةِ مَوَاضِعَ: فِي الِاسْمِ الْمُفْرَدِ، وَجَمْعِ التَّكْسِيرِ، وَالْفِعْلِ الْمُضَارِعِ إِذَا دَخَلَ عَلَيْهِ نَاصِبٌ وَلَمْ يَتَّصِلْ بِآخِرِهِ شَيْءٌ. وَأَمَّا الْأَلِفُ فَتَكُونُ عَلَامَةً لِلنَّصْبِ فِي الْأَسْمَاءِ الْخَمْسَةِ نَحْوَ: رَأَيْتُ أَبَاكَ وَأَخَاكَ. وَأَمَّا الْكَسْرَةُ فَتَكُونُ عَلَامَةً لِلنَّصْبِ فِي جَمْعِ الْمُؤَنَّثِ السَّالِمِ. وَأَمَّا الْيَاءُ فَتَكُونُ عَلَامَةً لِلنَّصْبِ فِي التَّثْنِيَةِ وَالْجَمْعِ. وَأَمَّا حَذْفُ النُّونِ فَيَكُونُ عَلَامَةً لِلنَّصْبِ فِي الْأَفْعَالِ الْخَمْسَةِ الَّتِي رَفْعُهَا بِثَبَاتِ النُّونِ.",
+      "translation": "Naṣb has five signs: the fatḥah, the alif, the kasrah, the yāʾ, and the dropping of the nūn. The fatḥah is a sign of naṣb in three places: the singular noun, the broken plural, and the present-tense verb when a naṣb-causing particle enters upon it with nothing attached to its end. The alif is a sign of naṣb in the Five Nouns, as in raʾaytu abāka wa-akhāka (I saw your father and your brother). The kasrah is a sign of naṣb in the sound feminine plural. The yāʾ is a sign of naṣb in the dual and the [sound masculine] plural. The dropping of the nūn is a sign of naṣb in the Five Verbs whose rafʿ is [otherwise] by the fixed nūn.",
+      "explanation": "Naṣb mirrors rafʿ closely: the default fatḥah covers most singular and broken-plural nouns, while special word-classes swap in a different marker. Notice the Five Nouns switch their rafʿ-wāw for an alif in naṣb (أبوك → أباك), and the dual/sound-masculine-plural switch their rafʿ-marker for a yāʾ (الطالبانِ → الطالبَيْنِ). The sound feminine plural is unusual: instead of a fatḥah it takes a kasrah in naṣb (رأيتُ المسلماتِ), which is a common point of confusion for students expecting every naṣb to look the same.",
+      "keyTerms": [
+        { "id": "kt-fatha", "arabic": "الْفَتْحَةُ", "transliteration": "al-fatḥah", "english": "Fatḥah", "definition": "The short vowel mark ـَ ; the default sign of naṣb." },
+        { "id": "kt-af3al5", "arabic": "الْأَفْعَالُ الْخَمْسَةُ", "transliteration": "al-afʿāl al-khamsah", "english": "The Five Verbs", "definition": "Present-tense verb forms ending in ا or و or ي followed by ن (e.g. يفعلان، تفعلون، تفعلين) - their rafʿ sign is the fixed nūn, and their naṣb/jazm sign is dropping that nūn." }
+      ],
+      "examples": [
+        { "id": "ch3-l2-ex1", "lessonId": "ch3-l2", "arabicSentence": "رَأَيْتُ الطَّالِبَ", "translation": "I saw the student.", "irabAnswer": "الطَّالِبَ: مفعولٌ به منصوبٌ وعلامة نصبه الفتحة الظاهرة.", "difficulty": 1 },
+        { "id": "ch3-l2-ex2", "lessonId": "ch3-l2", "arabicSentence": "رَأَيْتُ أَبَاكَ", "translation": "I saw your father.", "irabAnswer": "أَبَاكَ: مفعولٌ به منصوبٌ وعلامة نصبه الألف لأنه من الأسماء الخمسة.", "difficulty": 3 },
+        { "id": "ch3-l2-ex3", "lessonId": "ch3-l2", "arabicSentence": "لَنْ يَذْهَبُوا", "translation": "They will never go.", "irabAnswer": "يَذْهَبُوا: فعلٌ مضارعٌ منصوبٌ بـ«لن» وعلامة نصبه حذف النون لأنه من الأفعال الخمسة.", "difficulty": 3 }
+      ],
+      "recallQuestions": [
+        { "id": "ch3-l2-rq1", "lessonId": "ch3-l2", "type": "free", "questionEnglish": "What are the five signs of naṣb?", "correctAnswer": "الفتحة، والألف، والكسرة، والياء، وحذف النون." },
+        { "id": "ch3-l2-rq2", "lessonId": "ch3-l2", "type": "mcq", "questionEnglish": "What sign of naṣb does the sound feminine plural (جمع المؤنث السالم) take?", "options": ["الفتحة", "الألف", "الكسرة", "الياء"], "correctAnswer": "الكسرة" },
+        { "id": "ch3-l2-rq3", "lessonId": "ch3-l2", "type": "free", "questionEnglish": "What sign of naṣb do the Five Verbs (الأفعال الخمسة) take, and why is it unusual compared to the other signs?", "correctAnswer": "حذف النون (dropping the nūn) - unusual because the 'sign' is the absence of a letter, not a vowel or letter being added." }
+      ],
+      "memorisationSections": [
+        { "id": "ch3-l2-mem1", "lessonId": "ch3-l2", "order": 1, "arabicText": "وَلِلنَّصْبِ خَمْسُ عَلَامَاتٍ: الْفَتْحَةُ، وَالْأَلِفُ، وَالْكَسْرَةُ، وَالْيَاءُ، وَحَذْفُ النُّونِ.", "translation": "Naṣb has five signs: the fatḥah, the alif, the kasrah, the yāʾ, and the dropping of the nūn." }
+      ],
+      "irabExercises": [
+        {
+          "id": "ch3-l2-irab1",
+          "lessonId": "ch3-l2",
+          "level": 2,
+          "sentenceArabic": "رَأَيْتُ زَيْدًا",
+          "translation": "I saw Zayd.",
+          "tokens": [
+            { "word": "رَأَيْتُ", "wordType": "فعل", "role": "فعل وفاعل (تاء الفاعل)" },
+            { "word": "زَيْدًا", "wordType": "اسم", "role": "مفعول به", "grammaticalCase": "منصوب", "sign": "الفتحة الظاهرة", "reason": "لأنه اسم مفرد", "fullIrab": "زَيْدًا: مفعولٌ به منصوبٌ وعلامة نصبه الفتحةُ الظاهرة على آخره." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch3-l3",
+      "chapterId": "ch3",
+      "order": 3,
+      "titleArabic": "علامات الخفض",
+      "titleEnglish": "The Signs of Khafḍ",
+      "matnArabic": "وَلِلْخَفْضِ ثَلَاثُ عَلَامَاتٍ: الْكَسْرَةُ، وَالْيَاءُ، وَالْفَتْحَةُ. فَأَمَّا الْكَسْرَةُ فَتَكُونُ عَلَامَةً لِلْخَفْضِ فِي ثَلَاثَةِ مَوَاضِعَ: فِي الِاسْمِ الْمُفْرَدِ الْمُنْصَرِفِ، وَجَمْعِ التَّكْسِيرِ الْمُنْصَرِفِ، وَجَمْعِ الْمُؤَنَّثِ السَّالِمِ. وَأَمَّا الْيَاءُ فَتَكُونُ عَلَامَةً لِلْخَفْضِ فِي ثَلَاثَةِ مَوَاضِعَ: فِي الْأَسْمَاءِ الْخَمْسَةِ، وَالتَّثْنِيَةِ، وَالْجَمْعِ. وَأَمَّا الْفَتْحَةُ فَتَكُونُ عَلَامَةً لِلْخَفْضِ فِي الِاسْمِ الَّذِي لَا يَنْصَرِفُ.",
+      "translation": "Khafḍ has three signs: the kasrah, the yāʾ, and the fatḥah. The kasrah is a sign of khafḍ in three places: the declinable singular noun, the declinable broken plural, and the sound feminine plural. The yāʾ is a sign of khafḍ in three places: the Five Nouns, the dual, and the [sound masculine] plural. The fatḥah is a sign of khafḍ in the noun that does not decline (ghayr munṣarif).",
+      "explanation": "Khafḍ only ever affects nouns (recall Chapter 2). Its default sign is the kasrah, but the same two word-classes that behaved specially before - the Five Nouns and the dual/sound-masculine-plural - again take a yāʾ instead. The final case, الممنوع من الصرف (the diptote, 'non-declinable' noun - typically proper names and certain patterns), is unusual: it takes a fatḥah for khafḍ instead of a kasrah, and never takes tanwīn. This is why some names like إبراهيم or مساجدَ look like they are in naṣb even when they are actually majrūr.",
+      "keyTerms": [
+        { "id": "kt-kasra", "arabic": "الْكَسْرَةُ", "transliteration": "al-kasrah", "english": "Kasrah", "definition": "The short vowel mark ـِ ; the default sign of khafḍ." },
+        { "id": "kt-mamnu", "arabic": "الْمَمْنُوعُ مِنَ الصَّرْفِ", "transliteration": "al-mamnūʿ min al-ṣarf", "english": "Diptote (non-declinable noun)", "definition": "A noun that cannot take tanwīn and takes a fatḥah instead of a kasrah for khafḍ." }
+      ],
+      "examples": [
+        { "id": "ch3-l3-ex1", "lessonId": "ch3-l3", "arabicSentence": "مَرَرْتُ بِزَيْدٍ", "translation": "I passed by Zayd.", "irabAnswer": "بِزَيْدٍ: زيدٍ اسمٌ مجرورٌ بالباء وعلامة جرّه الكسرة الظاهرة.", "difficulty": 2 },
+        { "id": "ch3-l3-ex2", "lessonId": "ch3-l3", "arabicSentence": "مَرَرْتُ بِأَبِيكَ", "translation": "I passed by your father.", "irabAnswer": "بِأَبِيكَ: أبيك اسمٌ مجرورٌ بالباء وعلامة جرّه الياء لأنه من الأسماء الخمسة.", "difficulty": 3 },
+        { "id": "ch3-l3-ex3", "lessonId": "ch3-l3", "arabicSentence": "صَلَّيْتُ فِي مَسَاجِدَ", "translation": "I prayed in mosques.", "irabAnswer": "مَسَاجِدَ: اسمٌ مجرورٌ بـ«في» وعلامة جرّه الفتحة لأنه ممنوعٌ من الصرف.", "difficulty": 4 }
+      ],
+      "recallQuestions": [
+        { "id": "ch3-l3-rq1", "lessonId": "ch3-l3", "type": "free", "questionEnglish": "What are the three signs of khafḍ?", "correctAnswer": "الكسرة، والياء، والفتحة." },
+        { "id": "ch3-l3-rq2", "lessonId": "ch3-l3", "type": "mcq", "questionEnglish": "A noun that is 'ممنوعٌ من الصرف' (a diptote) takes which sign for khafḍ?", "options": ["الكسرة", "الياء", "الفتحة", "الواو"], "correctAnswer": "الفتحة" }
+      ],
+      "memorisationSections": [
+        { "id": "ch3-l3-mem1", "lessonId": "ch3-l3", "order": 1, "arabicText": "وَلِلْخَفْضِ ثَلَاثُ عَلَامَاتٍ: الْكَسْرَةُ، وَالْيَاءُ، وَالْفَتْحَةُ.", "translation": "Khafḍ has three signs: the kasrah, the yāʾ, and the fatḥah." }
+      ],
+      "irabExercises": [
+        {
+          "id": "ch3-l3-irab1",
+          "lessonId": "ch3-l3",
+          "level": 2,
+          "sentenceArabic": "مَرَرْتُ بِزَيْدٍ",
+          "translation": "I passed by Zayd.",
+          "tokens": [
+            { "word": "مَرَرْتُ", "wordType": "فعل", "role": "فعل وفاعل (تاء الفاعل)" },
+            { "word": "بِ", "wordType": "حرف", "role": "حرف جر" },
+            { "word": "زَيْدٍ", "wordType": "اسم", "role": "اسم مجرور", "grammaticalCase": "مجرور", "sign": "الكسرة الظاهرة", "reason": "لأنه اسم مفرد منصرف", "fullIrab": "زَيْدٍ: اسمٌ مجرورٌ بالباء وعلامة جرّه الكسرةُ الظاهرة على آخره." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch3-l4",
+      "chapterId": "ch3",
+      "order": 4,
+      "titleArabic": "علامات الجزم",
+      "titleEnglish": "The Signs of Jazm",
+      "matnArabic": "وَلِلْجَزْمِ عَلَامَتَانِ: السُّكُونُ، وَالْحَذْفُ. فَأَمَّا السُّكُونُ فَيَكُونُ عَلَامَةً لِلْجَزْمِ فِي الْفِعْلِ الْمُضَارِعِ الصَّحِيحِ الْآخِرِ. وَأَمَّا الْحَذْفُ فَيَكُونُ عَلَامَةً لِلْجَزْمِ فِي الْفِعْلِ الْمُضَارِعِ الْمُعْتَلِّ الْآخِرِ، وَفِي الْأَفْعَالِ الْخَمْسَةِ الَّتِي رَفْعُهَا بِثَبَاتِ النُّونِ.",
+      "translation": "Jazm has two signs: the sukūn, and dropping [a letter]. The sukūn is a sign of jazm in the present-tense verb whose final letter is sound. Dropping is a sign of jazm in the present-tense verb whose final letter is weak, and in the Five Verbs whose rafʿ is by the fixed nūn.",
+      "explanation": "Jazm, like khafḍ, is restricted to one word-class only - here, present-tense verbs. Its default sign is the sukūn (ـْ, no vowel at all) on a verb whose final root letter is a normal consonant. But a verb ending in a weak letter (و ا ي) cannot take a sukūn on that letter, so instead the whole weak letter is dropped (لم يَخْشَ from يَخْشَى). The Five Verbs again behave specially, dropping their fixed nūn for jazm just as they did for naṣb - meaning the naṣb and jazm forms of these verbs look identical.",
+      "keyTerms": [
+        { "id": "kt-sukun", "arabic": "السُّكُونُ", "transliteration": "al-sukūn", "english": "Sukūn", "definition": "The absence of a vowel, marked ـْ ; the default sign of jazm." },
+        { "id": "kt-mutall", "arabic": "الْمُعْتَلُّ الْآخِرِ", "transliteration": "al-muʿtall al-ākhir", "english": "Weak-final verb", "definition": "A verb whose final root letter is و ، ا، or ي, which behaves differently under jazm and naṣb." }
+      ],
+      "examples": [
+        { "id": "ch3-l4-ex1", "lessonId": "ch3-l4", "arabicSentence": "لَمْ يَكْتُبْ", "translation": "He did not write.", "irabAnswer": "يَكْتُبْ: فعلٌ مضارعٌ مجزومٌ بـ«لم» وعلامة جزمه السكون.", "difficulty": 2 },
+        { "id": "ch3-l4-ex2", "lessonId": "ch3-l4", "arabicSentence": "لَمْ يَخْشَ", "translation": "He was not afraid.", "irabAnswer": "يَخْشَ: فعلٌ مضارعٌ مجزومٌ بـ«لم» وعلامة جزمه حذف حرف العلة.", "difficulty": 4 },
+        { "id": "ch3-l4-ex3", "lessonId": "ch3-l4", "arabicSentence": "لَمْ يَذْهَبُوا", "translation": "They did not go.", "irabAnswer": "يَذْهَبُوا: فعلٌ مضارعٌ مجزومٌ بـ«لم» وعلامة جزمه حذف النون لأنه من الأفعال الخمسة.", "difficulty": 4 }
+      ],
+      "recallQuestions": [
+        { "id": "ch3-l4-rq1", "lessonId": "ch3-l4", "type": "free", "questionEnglish": "What are the two signs of jazm?", "correctAnswer": "السكون، والحذف (the sukūn, and dropping [a letter])." },
+        { "id": "ch3-l4-rq2", "lessonId": "ch3-l4", "type": "mcq", "questionEnglish": "Which word class can be majzūm?", "options": ["Nouns only", "Past-tense verbs only", "Present-tense verbs only", "Particles only"], "correctAnswer": "Present-tense verbs only" }
+      ],
+      "memorisationSections": [
+        { "id": "ch3-l4-mem1", "lessonId": "ch3-l4", "order": 1, "arabicText": "وَلِلْجَزْمِ عَلَامَتَانِ: السُّكُونُ، وَالْحَذْفُ.", "translation": "Jazm has two signs: the sukūn, and dropping." }
+      ],
+      "irabExercises": [
+        {
+          "id": "ch3-l4-irab1",
+          "lessonId": "ch3-l4",
+          "level": 2,
+          "sentenceArabic": "لَمْ يَكْتُبْ زَيْدٌ",
+          "translation": "Zayd did not write.",
+          "tokens": [
+            { "word": "لَمْ", "wordType": "حرف", "role": "حرف جزم" },
+            { "word": "يَكْتُبْ", "wordType": "فعل", "role": "فعل مضارع مجزوم", "grammaticalCase": "مجزوم", "sign": "السكون", "reason": "لأنه فعل مضارع صحيح الآخر", "fullIrab": "يَكْتُبْ: فعلٌ مضارعٌ مجزومٌ بـ«لم» وعلامة جزمه السكونُ." },
+            { "word": "زَيْدٌ", "wordType": "اسم", "role": "فاعل", "grammaticalCase": "مرفوع", "sign": "الضمة", "reason": "لأنه اسم مفرد", "fullIrab": "زَيْدٌ: فاعلٌ مرفوعٌ وعلامة رفعه الضمةُ الظاهرة." }
+          ]
+        }
+      ]
+    }
+  ]
+}
