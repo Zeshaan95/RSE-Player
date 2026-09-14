@@ -1,0 +1,28 @@
+{
+  "id": "ch6",
+  "number": 6,
+  "titleArabic": "بَابُ الْمَفْعُولِ الَّذِي لَمْ يُسَمَّ فَاعِلُهُ",
+  "titleEnglish": "The Chapter of the Passive Subject (nāʾib al-fāʿil)",
+  "description": "PLACEHOLDER CHAPTER - the authentic matn text for this chapter has not yet been inserted into the curriculum. This entry exists to show the intended shape of the curriculum and should not be memorised or quoted as the actual text of al-Ājurrūmiyyah.",
+  "isPlaceholder": true,
+  "lessons": [
+    {
+      "id": "ch6-l1",
+      "chapterId": "ch6",
+      "order": 1,
+      "titleArabic": "نائب الفاعل",
+      "titleEnglish": "The Substitute Subject (Placeholder)",
+      "matnArabic": "[PLACEHOLDER - the authentic Arabic matn for this section has not yet been added. Replace this field with the verified text before using this lesson for memorisation.]",
+      "translation": "[Placeholder - awaiting the authentic matn text above before a translation can be finalised.]",
+      "explanation": "This chapter of al-Ājurrūmiyyah traditionally covers the noun that stands in for the fāʿil when a verb is put into the passive voice (mabnī li-l-majhūl), e.g. ضُرِبَ زَيْدٌ ('Zayd was struck'), where زيدٌ takes the same marfūʿ case as a fāʿil would. The real matn wording has intentionally been left out here rather than approximated, in line with the requirement not to fabricate or paraphrase the original text. Insert the verified Arabic text from a reliable printed edition to activate this lesson for memorisation and recall practice.",
+      "keyTerms": [
+        { "id": "kt-naib", "arabic": "نَائِبُ الْفَاعِلِ", "transliteration": "nāʾib al-fāʿil", "english": "Substitute subject", "definition": "The noun that takes the grammatical position of the fāʿil when the verb is passive." }
+      ],
+      "examples": [],
+      "recallQuestions": [],
+      "memorisationSections": [],
+      "irabExercises": [],
+      "isPlaceholder": true
+    }
+  ]
+}

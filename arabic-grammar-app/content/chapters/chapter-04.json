@@ -1,0 +1,39 @@
+{
+  "id": "ch4",
+  "number": 4,
+  "titleArabic": "فَصْلٌ: الْأَفْعَالُ",
+  "titleEnglish": "Section: The Types of Verbs",
+  "description": "The three tenses of the Arabic verb, and which of them are declinable (muʿrab) versus fixed (mabnī).",
+  "lessons": [
+    {
+      "id": "ch4-l1",
+      "chapterId": "ch4",
+      "order": 1,
+      "titleArabic": "أنواع الفعل",
+      "titleEnglish": "The Three Types of Verb",
+      "matnArabic": "الْأَفْعَالُ ثَلَاثَةٌ: مَاضٍ، وَمُضَارِعٌ، وَأَمْرٌ، نَحْوَ: ضَرَبَ، يَضْرِبُ، اضْرِبْ. فَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا. وَالْأَمْرُ مَجْزُومٌ أَبَدًا. وَالْمُضَارِعُ مَا كَانَ فِي أَوَّلِهِ إِحْدَى الزَّوَائِدِ الْأَرْبَعِ، وَهِيَ: الْهَمْزَةُ، وَالنُّونُ، وَالْيَاءُ، وَالتَّاءُ، وَهُوَ مَرْفُوعٌ أَبَدًا حَتَّى يَدْخُلَ عَلَيْهِ نَاصِبٌ أَوْ جَازِمٌ.",
+      "translation": "Verbs are three: past (māḍī), present (muḍāriʿ), and imperative (amr) - for example: ḍaraba (he struck), yaḍribu (he strikes), iḍrib (strike!). The past-tense verb always ends in a fatḥah. The imperative is always in jazm. The present-tense verb is that which begins with one of the four additional letters - the hamzah, the nūn, the yāʾ, and the tāʾ - and it is always in rafʿ until a naṣb-causing or jazm-causing particle enters upon it.",
+      "explanation": "This section connects the case system of the last two chapters to real verb forms. The past tense is mabnī (fixed) on a fatḥah and never changes regardless of context - it is outside the iʿrāb system entirely. The imperative is likewise fixed, always majzūm in form. Only the present tense (muḍāriʿ) is muʿrab (declinable) and actually moves between rafʿ, naṣb, and jazm depending on what precedes it - which is exactly why chapters 2 and 3 kept referring to 'الفعل المضارع' specifically. The four letters that mark a present-tense verb are traditionally memorised with the mnemonic word أَنَيْتُ (hamzah-nūn-yāʾ-tāʾ).",
+      "keyTerms": [
+        { "id": "kt-madi", "arabic": "الْمَاضِي", "transliteration": "al-māḍī", "english": "Past tense", "definition": "Always mabnī (fixed) on a fatḥah; not part of the iʿrāb system." },
+        { "id": "kt-mudari", "arabic": "الْمُضَارِعُ", "transliteration": "al-muḍāriʿ", "english": "Present tense", "definition": "The only muʿrab (declinable) verb form; defaults to rafʿ until a naṣb- or jazm-particle enters." },
+        { "id": "kt-amr", "arabic": "الْأَمْرُ", "transliteration": "al-amr", "english": "Imperative", "definition": "Always mabnī, in the jazm form." },
+        { "id": "kt-zawaid", "arabic": "الزَّوَائِدُ الْأَرْبَعُ", "transliteration": "al-zawāʾid al-arbaʿ", "english": "The four additional letters", "definition": "أ ن ي ت - the letters that begin every present-tense verb, mnemonic: أنيت." }
+      ],
+      "examples": [
+        { "id": "ch4-l1-ex1", "lessonId": "ch4-l1", "arabicSentence": "ضَرَبَ / يَضْرِبُ / اضْرِبْ", "translation": "He struck / he strikes / strike! - the same root in all three tenses.", "difficulty": 1 },
+        { "id": "ch4-l1-ex2", "lessonId": "ch4-l1", "arabicSentence": "لَمْ يَضْرِبْ", "translation": "He did not strike - the present tense verb yaḍribu has moved from rafʿ into jazm because of لم.", "irabAnswer": "يَضْرِبْ: فعلٌ مضارعٌ مجزومٌ بـ«لم» وعلامة جزمه السكون.", "difficulty": 2 }
+      ],
+      "recallQuestions": [
+        { "id": "ch4-l1-rq1", "lessonId": "ch4-l1", "type": "free", "questionEnglish": "What are the three tenses of the Arabic verb?", "correctAnswer": "ماضٍ، ومضارعٌ، وأمرٌ (past, present, and imperative)." },
+        { "id": "ch4-l1-rq2", "lessonId": "ch4-l1", "type": "mcq", "questionEnglish": "Which verb tense is the only one that is muʿrab (declinable, i.e. participates in iʿrāb)?", "options": ["الماضي", "المضارع", "الأمر", "None of them"], "correctAnswer": "المضارع" },
+        { "id": "ch4-l1-rq3", "lessonId": "ch4-l1", "type": "free", "questionEnglish": "What are the four letters that always begin a present-tense verb, and what is the mnemonic word for them?", "correctAnswer": "الهمزة، والنون، والياء، والتاء - mnemonic: أَنَيْتُ." }
+      ],
+      "memorisationSections": [
+        { "id": "ch4-l1-mem1", "lessonId": "ch4-l1", "order": 1, "arabicText": "الْأَفْعَالُ ثَلَاثَةٌ: مَاضٍ، وَمُضَارِعٌ، وَأَمْرٌ، نَحْوَ: ضَرَبَ، يَضْرِبُ، اضْرِبْ. فَالْمَاضِي مَفْتُوحُ الْآخِرِ أَبَدًا. وَالْأَمْرُ مَجْزُومٌ أَبَدًا.", "translation": "Verbs are three: past, present, and imperative - e.g. ḍaraba, yaḍribu, iḍrib. The past always ends in a fatḥah. The imperative is always in jazm." },
+        { "id": "ch4-l1-mem2", "lessonId": "ch4-l1", "order": 2, "arabicText": "وَالْمُضَارِعُ مَا كَانَ فِي أَوَّلِهِ إِحْدَى الزَّوَائِدِ الْأَرْبَعِ، وَهِيَ: الْهَمْزَةُ، وَالنُّونُ، وَالْيَاءُ، وَالتَّاءُ، وَهُوَ مَرْفُوعٌ أَبَدًا حَتَّى يَدْخُلَ عَلَيْهِ نَاصِبٌ أَوْ جَازِمٌ.", "translation": "The present tense begins with one of the four additional letters - hamzah, nūn, yāʾ, tāʾ - and is always in rafʿ until a naṣb- or jazm-particle enters upon it." }
+      ],
+      "irabExercises": []
+    }
+  ]
+}

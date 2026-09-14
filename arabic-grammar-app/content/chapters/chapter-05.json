@@ -1,0 +1,65 @@
+{
+  "id": "ch5",
+  "number": 5,
+  "titleArabic": "بَابُ الْفَاعِلِ",
+  "titleEnglish": "The Chapter of al-Fāʿil (The Subject)",
+  "description": "The first of the marfūʿ (nominative) noun categories: the fāʿil, the doer of the verb's action.",
+  "lessons": [
+    {
+      "id": "ch5-l1",
+      "chapterId": "ch5",
+      "order": 1,
+      "titleArabic": "تعريف الفاعل وأقسامه",
+      "titleEnglish": "The Definition of al-Fāʿil and Its Two Kinds",
+      "matnArabic": "الْفَاعِلُ: هُوَ الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ، وَهُوَ عَلَى قِسْمَيْنِ: ظَاهِرٌ وَمُضْمَرٌ.",
+      "translation": "The fāʿil is the noun in the nominative case that is mentioned [in a sentence] after its verb [comes before it]. It is of two kinds: apparent (ẓāhir) and hidden/pronominal (muḍmar).",
+      "explanation": "This opens the long section of al-Ājurrūmiyyah dealing one by one with every category of marfūʿ noun (مرفوعات الأسماء) - the fāʿil is the first and most fundamental. Three things are packed into the definition: it must be an ism (never a verb or particle), it must be marfūʿ, and the normal Arabic sentence order places the verb first and the fāʿil after it (unlike English, where the subject usually comes first). A فاعل ظاهر is an explicit noun like زيد in قامَ زيدٌ; a فاعل مضمر is a hidden pronoun folded into the verb itself, as in قُمْتُ ('I stood'), where the doer 'I' is not a separate word but the تُ attached to the verb.",
+      "keyTerms": [
+        { "id": "kt-fail", "arabic": "الْفَاعِلُ", "transliteration": "al-fāʿil", "english": "The subject / doer", "definition": "The marfūʿ noun that performs the action of the verb preceding it." },
+        { "id": "kt-dhahir", "arabic": "ظَاهِرٌ", "transliteration": "ẓāhir", "english": "Apparent", "definition": "An explicit, separately-written noun functioning as the fāʿil." },
+        { "id": "kt-mudmar", "arabic": "مُضْمَرٌ", "transliteration": "muḍmar", "english": "Hidden / pronominal", "definition": "A pronoun attached to or embedded within the verb itself, functioning as the fāʿil." }
+      ],
+      "examples": [
+        { "id": "ch5-l1-ex1", "lessonId": "ch5-l1", "arabicSentence": "قَامَ زَيْدٌ", "translation": "Zayd stood.", "componentBreakdown": [{ "word": "قَامَ", "role": "فعل ماضٍ" }, { "word": "زَيْدٌ", "role": "فاعل ظاهر", "grammaticalCase": "مرفوع", "sign": "الضمة" }], "irabAnswer": "زَيْدٌ: فاعلٌ مرفوعٌ وعلامة رفعه الضمةُ الظاهرة على آخره.", "difficulty": 1 },
+        { "id": "ch5-l1-ex2", "lessonId": "ch5-l1", "arabicSentence": "قُمْتُ", "translation": "I stood (the fāʿil here is the hidden pronoun تُ, 'I', fused into the verb).", "irabAnswer": "التاء: ضمير متصل مبني في محل رفع فاعل.", "difficulty": 3 },
+        { "id": "ch5-l1-ex3", "lessonId": "ch5-l1", "arabicSentence": "قَامَتْ هِنْدٌ", "translation": "Hind stood.", "irabAnswer": "هِنْدٌ: فاعلٌ مرفوعٌ وعلامة رفعه الضمةُ الظاهرة، والتاءُ في «قامتْ» علامة تأنيثٍ ساكنة لا محل لها من الإعراب.", "difficulty": 2 }
+      ],
+      "recallQuestions": [
+        { "id": "ch5-l1-rq1", "lessonId": "ch5-l1", "type": "free", "questionEnglish": "What is the definition of الفاعل?", "correctAnswer": "الاسم المرفوع المذكور قبله فعله (the noun in the nominative case, mentioned with its verb coming before it)." },
+        { "id": "ch5-l1-rq2", "lessonId": "ch5-l1", "type": "free", "questionEnglish": "What are the two kinds of fāʿil, and how do they differ?", "correctAnswer": "ظاهر (apparent) - an explicit separate noun; ومضمر (hidden) - a pronoun embedded in or attached to the verb itself." },
+        { "id": "ch5-l1-rq3", "lessonId": "ch5-l1", "type": "mcq", "questionEnglish": "In the sentence «قامَ زيدٌ», what is the grammatical role of زيدٌ?", "options": ["مبتدأ", "فاعل", "مفعول به", "خبر"], "correctAnswer": "فاعل" },
+        { "id": "ch5-l1-rq4", "lessonId": "ch5-l1", "type": "free", "questionEnglish": "In Arabic word order, does the fāʿil normally come before or after its verb?", "correctAnswer": "After - the verb is normally mentioned first, then the fāʿil." }
+      ],
+      "memorisationSections": [
+        { "id": "ch5-l1-mem1", "lessonId": "ch5-l1", "order": 1, "arabicText": "الْفَاعِلُ: هُوَ الِاسْمُ الْمَرْفُوعُ الْمَذْكُورُ قَبْلَهُ فِعْلُهُ، وَهُوَ عَلَى قِسْمَيْنِ: ظَاهِرٌ وَمُضْمَرٌ.", "translation": "The fāʿil is the noun in the nominative that is mentioned after its verb. It is of two kinds: apparent and hidden." }
+      ],
+      "irabExercises": [
+        {
+          "id": "ch5-l1-irab1",
+          "lessonId": "ch5-l1",
+          "level": 4,
+          "sentenceArabic": "جَاءَ زَيْدٌ",
+          "translation": "Zayd came.",
+          "tokens": [
+            { "word": "جَاءَ", "wordType": "فعل", "role": "فعل ماضٍ مبني على الفتح" },
+            { "word": "زَيْدٌ", "wordType": "اسم", "role": "فاعل", "grammaticalCase": "مرفوع", "sign": "الضمة الظاهرة", "reason": "لأنه اسم مفرد", "fullIrab": "زَيْدٌ: فاعلٌ مرفوعٌ وعلامة رفعه الضمةُ الظاهرة على آخره." }
+          ]
+        },
+        {
+          "id": "ch5-l1-irab2",
+          "lessonId": "ch5-l1",
+          "level": 5,
+          "sentenceArabic": "يَجْتَهِدُ الطَّالِبَاتُ فِي دُرُوسِهِنَّ",
+          "translation": "The [female] students work hard at their lessons.",
+          "tokens": [
+            { "word": "يَجْتَهِدُ", "wordType": "فعل", "role": "فعل مضارع", "grammaticalCase": "مرفوع", "sign": "الضمة", "reason": "لأنه لم يتصل بآخره شيء ولم يسبقه ناصب أو جازم" },
+            { "word": "الطَّالِبَاتُ", "wordType": "اسم", "role": "فاعل", "grammaticalCase": "مرفوع", "sign": "الضمة الظاهرة", "reason": "لأنه جمع مؤنث سالم", "fullIrab": "الطَّالِبَاتُ: فاعلٌ مرفوعٌ وعلامة رفعه الضمةُ الظاهرة لأنه جمعُ مؤنثٍ سالمٍ." },
+            { "word": "فِي", "wordType": "حرف", "role": "حرف جر" },
+            { "word": "دُرُوسِ", "wordType": "اسم", "role": "اسم مجرور", "grammaticalCase": "مجرور", "sign": "الكسرة", "reason": "لأنه جمع تكسير منصرف" },
+            { "word": "هِنَّ", "wordType": "اسم", "role": "ضمير متصل مضاف إليه" }
+          ]
+        }
+      ]
+    }
+  ]
+}
