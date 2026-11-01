@@ -56,7 +56,7 @@ export function adjustmentAdvice(args: {
   const kcalCut = Math.min(RULES.kcalCut, Math.max(0, kcalTarget - DAILY.kcalFloor))
   const cutDetail =
     kcalCut > 0
-      ? `Cut ${kcalCut} kcal a day from carbs or fat (new target ${kcalTarget - kcalCut} kcal). Never cut protein.`
+      ? `Cut ${kcalCut} kcal a day from carbs or fat (new target ${(kcalTarget - kcalCut).toLocaleString("en-GB")} kcal). Never cut protein.`
       : `Calories are already at the ${DAILY.kcalFloor.toLocaleString('en-GB')} kcal floor, so don't cut further. Never cut protein.`
   const cutActions: AdviceAction[] = kcalCut > 0 ? [{ type: 'cutKcal', kcal: kcalCut }] : []
 

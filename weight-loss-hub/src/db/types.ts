@@ -58,6 +58,8 @@ export interface CheckIn {
   date: ISODate // a Sunday
   waistCm?: number
   notes?: string
+  /** Rule-3 actions applied from this check-in (e.g. "addSteps"). */
+  applied?: string[]
   savedAt: string
 }
 
