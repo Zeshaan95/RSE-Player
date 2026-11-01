@@ -29,8 +29,8 @@ export function habitChecks(day: HabitDay | undefined, date: ISODate, s: Pick<Se
   ]
 }
 
-/** Weekly adherence (Mon–Sun containing `date`, up to and including `upTo`): % of applicable habit targets met. */
-export function weeklyAdherence(days: HabitDay[], date: ISODate, s: Parameters<typeof habitChecks>[2], upTo: ISODate = date): { pct: number | null; met: number; total: number } {
+/** Weekly adherence (Mon–Sun containing `date`, from `from` up to and including `upTo`): % of applicable habit targets met. */
+export function weeklyAdherence(days: HabitDay[], date: ISODate, s: Parameters<typeof habitChecks>[2], upTo: ISODate = date, from?: ISODate): { pct: number | null; met: number; total: number } {
   const start = weekStart(date)
   const byDate = new Map(days.map((d) => [d.date, d]))
   let met = 0
@@ -38,6 +38,7 @@ export function weeklyAdherence(days: HabitDay[], date: ISODate, s: Parameters<t
   for (let i = 0; i < 7; i++) {
     const dt = addDays(start, i)
     if (dt > upTo) break
+    if (from && dt < from) continue
     for (const c of habitChecks(byDate.get(dt), dt, s)) {
       if (!c.applicable) continue
       total++

@@ -7,6 +7,7 @@ import { dailyReadings, dec6Check, projection, sevenDayAvg, statusFor, targetFor
 import { adjustmentAdvice, bandFor } from './advice'
 import { best1RM, epley1RM, latestMaxes, liftsGoingDown, newWorkout, progression, repTarget, strengthWarning, strengthWarnings, topSetKg } from './strength'
 import { EXERCISES } from '../plan'
+import { habitChecks, weeklyAdherence } from './habits'
 import { isWaistSunday, jogMinutes, sessionFor, stepsTarget } from './schedule'
 
 const w = (date: string, kg: number, time = '07:00'): WeighIn => ({ date, kg, time })
@@ -333,5 +334,24 @@ describe('schedule', () => {
     for (let d = '2026-10-31'; d <= '2027-01-31'; d = addDays(d, 1)) {
       expect(sessionFor(d).title.length).toBeGreaterThan(0)
     }
+  })
+})
+
+describe('habits', () => {
+  const s = { kcalTarget: 1900, proteinMin: 160, stepsExtra: 0, waterMinL: 2.5, sleepMinH: 7, footballPausedForHolidays: false }
+  it('checks each habit against target', () => {
+    const c = habitChecks({ date: '2026-11-03', kcal: 1700, protein: 165, steps: 10000, waterL: 2.5, sleepH: 6.5, sessionDone: true, creatine: true }, '2026-11-03', s)
+    expect(Object.fromEntries(c.map((x) => [x.key, x.met]))).toEqual({ kcal: false, protein: true, steps: true, water: true, sleep: false, session: true, creatine: true })
+  })
+  it('session only counts on training days', () => {
+    expect(habitChecks(undefined, '2026-11-04', s).find((c) => c.key === 'session')!.applicable).toBe(false)
+  })
+  it('weekly adherence %', () => {
+    const full = { kcal: 1850, protein: 170, steps: 13000, waterL: 3, sleepH: 7.5, sessionDone: true, creatine: true }
+    // Mon 2 Nov (training: 7 habits) all met; Tue 3 Nov nothing
+    const r = weeklyAdherence([{ date: '2026-11-02', ...full }], '2026-11-03', s)
+    expect(r).toEqual({ pct: 50, met: 7, total: 14 })
+    // Days before `from` are ignored
+    expect(weeklyAdherence([{ date: '2026-11-02', ...full }], '2026-11-03', s, '2026-11-03', '2026-11-03').total).toBe(7)
   })
 })
