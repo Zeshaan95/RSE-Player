@@ -4,6 +4,7 @@ import { ensureSeeded, requestPersistence } from './db/db'
 import { useSettings, useTheme } from './hooks'
 import Today from './screens/Today'
 import WeighIns from './screens/WeighIns'
+import { RestTimerProvider } from './components/RestTimer'
 
 const Workout = lazy(() => import('./screens/Workout'))
 const Progress = lazy(() => import('./screens/Progress'))
@@ -50,6 +51,7 @@ export default function App() {
   }, [])
   return (
     <BrowserRouter>
+      <RestTimerProvider>
       <main className="pt-safe mx-auto max-w-lg px-3 pb-24">
         <Suspense fallback={<div className="p-8 text-center text-slate-500">Loading…</div>}>
           <Routes>
@@ -67,6 +69,7 @@ export default function App() {
         </Suspense>
       </main>
       <TabBar />
+      </RestTimerProvider>
     </BrowserRouter>
   )
 }

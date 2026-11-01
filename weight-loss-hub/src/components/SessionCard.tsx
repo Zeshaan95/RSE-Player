@@ -23,7 +23,7 @@ export function SessionCard({ s, isToday }: { s: SessionForDay; isToday: boolean
         </ul>
       )}
       {s.kind === 'strength' && isToday && (
-        <Link to="/workout" className="mt-3 flex min-h-12 items-center justify-center rounded-xl bg-brand-700 font-semibold text-white active:bg-brand-900">
+        <Link to={s.template ? `/workout?start=${s.template}` : '/workout'} className="mt-3 flex min-h-12 items-center justify-center rounded-xl bg-brand-700 font-semibold text-white active:bg-brand-900">
           Start {s.template ? `Strength ${s.template}` : 'session'}
         </Link>
       )}
