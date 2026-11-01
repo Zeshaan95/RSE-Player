@@ -17,7 +17,7 @@ npm run dev
 
 1. Push this repo to GitHub.
 2. In Netlify, go to **Add new site → Import an existing project** and pick the repo.
-3. `netlify.toml` already sets base `weight-loss-hub`, build `npm ci && npm run build` and publish `dist`. Click **Deploy**.
+3. Set **Base directory** to `weight-loss-hub`. `netlify.toml` in that folder supplies the build command, publish directory (`dist`), SPA redirect and service-worker headers. Click **Deploy**.
 
 ### Vercel
 

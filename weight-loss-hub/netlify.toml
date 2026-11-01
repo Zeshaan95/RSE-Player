@@ -1,5 +1,4 @@
 [build]
-  base = "weight-loss-hub"
   command = "npm ci && npm run build"
   publish = "dist"
 
